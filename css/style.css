@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Libre+Baskerville:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 900px;
+    background-image: url(../img/pirapora.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+header{
+    background-color:#f1f1f1a1;
+    position: fixed;
+    top: 0px;
+    height: 120px;
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+    font-family: 'Allison';
+    font-size: 200%;
+}
+
+main{
+    background-color:#f1f1f1a1;
+    padding-bottom: 50px;
+}
+
+p{
+    display: block;
+    text-align: justify;
+    margin: 140px 50px 20px 50px;
+    padding: 20px 0px;
+    font-size: 200%;
+}
+
+.video{
+    margin: 0px auto 50px auto;
+    text-align: center;
+    display: block;
+}
+
+.social{
+    text-align: center;
+    padding: 0px 30px;
+    margin: 20px;
+}
+
+img{
+    width: 50px;
+}
+
+a{
+    margin: 20px;
+}
+
+.curiosidades{
+    font-family: 'Libre Baskerville';
+    margin-left: 10px;
+    font-size: 200%;
+}
+
+ul{
+    list-style: none;
+}
+.item{
+    position: relative;
+    margin: 10px 0px;
+}
+.item::before{
+    content: '';
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 5px 15px;
+    background-image: url(https://cdn.icon-icons.com/icons2/2161/PNG/512/interface_checkmark_check_success_verified_icon_133025.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 3px;
+}
