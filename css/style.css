@@ -31,7 +31,7 @@ main{
     padding-bottom: 50px;
 }
 
-p{
+.intro{
     display: block;
     text-align: justify;
     margin: 140px 50px 20px 50px;
@@ -67,19 +67,21 @@ a{
 
 ul{
     list-style: none;
+    padding: 10px 50px;
 }
 .item{
     position: relative;
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
 .item::before{
     content: '';
     position: relative;
     left: 0;
     top: 0;
-    padding: 5px 15px;
+    padding: 0px 25px 0px 15px;
     background-image: url(https://cdn.icon-icons.com/icons2/2161/PNG/512/interface_checkmark_check_success_verified_icon_133025.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 3px;
+    background-size: 30px;
+    margin-right: 10px;
 }
+
