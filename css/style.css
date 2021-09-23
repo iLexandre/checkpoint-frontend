@@ -19,8 +19,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-wrap: wrap; */
-    /*Talvez tirar*/
     background-color: #f1f1f1a1;
     position: sticky;
     top: 0;
@@ -108,7 +106,7 @@ ul {
     left: 0;
     top: 0;
     padding: 0px 25px 0px 15px;
-    background-image: url(https://cdn.icon-icons.com/icons2/2161/PNG/512/interface_checkmark_check_success_verified_icon_133025.png);
+    background-image: url(../img/interface_checkmark_check_success_verified_icon_133025.png);
     background-repeat: no-repeat;
     background-size: 30px;
     margin-right: 10px;
