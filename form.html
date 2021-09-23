@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pirapora - News</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pirapora / MG - Capital Morena do São Francisco</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#news">Newsletter</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="news">Newsletter turístico</h1>
+        <h3>Receba toda semana as principais informações sobre atrações e pontos turísticos da cidade.</h3>
+        <section id="form">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="nome">Nome *</label>
+                    <input type="text" name="nome" id="nome" required maxlength="100">
+                    <label for="email">E-mail *</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="telefone">Telefone *</label>
+                    <input type="number" name="telefone" id="telefone" required>
+                    <label for="nascimento">Data de Nascimento *</label>
+                    <input type="date" name="nascimento" id="nascimento" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Interesses</legend>
+                    <div id="interesses-flex">
+                        <fieldset>
+                            <legend>Naturais</legend>
+                            <div class="interesse">
+                                <input type="checkbox" name="interesse" id="itamaraty">
+                                <label for="itamaraty">Rio São Francisco</label><br>
+                                <input type="checkbox" name="interesse" id="quadra">
+                                <label for="quadra">Corregos</label><br>
+                                <input type="checkbox" name="interesse" id="mab">
+                                <label for="mab">Agro-Turismo</label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Históricos</legend>
+                            <div class="interesse">
+                                <input type="checkbox" name="interesse" id="catete">
+                                <label for="catete">Barra do Guaicuí</label><br>
+                                <input type="checkbox" name="interesse" id="praca3">
+                                <label for="praca3">Vapor Beijamin Guimarães</label><br>
+                                <input type="checkbox" name="interesse" id="panteao">
+                                <label for="panteao">Centro Histórico</label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Noturnos</legend>
+                            <div class="interesse">
+                                <input type="checkbox" name="interesse" id="baresOrla">
+                                <label for="baresOrla">Bares da Orla</label><br>
+                                <input type="checkbox" name="interesse" id="beiraRio">
+                                <label for="beiraRio">Beira Rio Night Club</label><br>
+                                <input type="checkbox" name="interesse" id="restaurantes">
+                                <label for="restaurantes">Restaurantes</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Perfil</legend>
+                    <div class="perfil">
+                        <input type="checkbox" name="perfil" id="viajante">
+                        <label for="viajante">Visitante</label>
+                        <input type="checkbox" name="perfil" id="residente">
+                        <label for="residente">Morador</label>
+                        <input type="checkbox" name="perfil" id="estudante">
+                        <label for="estudante">Estudante</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Observações</legend>
+                    <textarea placeholder="Deixe aqui informações que você considere importantes sobre a sua inscrição nessa newsletter." name="observacoes" id="observacoes" cols="22"
+                        rows="5"></textarea>
+                </fieldset>
+                <button type="reset">Cancelar</button>
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+
+        <h1 id="contato">Contato</h1>
+        <h3>Em caso de dúvidas ou reclamações, entre em contato através desse formulário:</h3>
+        <section id="form">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="nome">Nome *</label>
+                    <input type="text" name="nome" id="nome" required maxlength="100">
+                    <label for="email">E-mail *</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="telefone">Telefone *</label>
+                    <input type="number" name="telefone" id="telefone" required>
+                    </span>
+                </fieldset>
+                <fieldset>
+                    <legend>Motivo do Contato</legend>
+                    <div id="interesses-flex">
+                        <fieldset>
+                            <div class="interesse">
+                                <input type="checkbox" name="interesse" id="itamaraty">
+                                <label for="itamaraty">Segurança</label><br>
+                                <input type="checkbox" name="interesse" id="quadra">
+                                <label for="quadra">Saúde</label><br>
+                                <input type="checkbox" name="interesse" id="mab">
+                                <label for="mab">Lazer</label><br>
+                                <input type="checkbox" name="interesse" id="outro">
+                                <label for="outro">Outro (detalhe no campo de texto)</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Perfil</legend>
+                    <div class="perfil">
+                        <input type="checkbox" name="perfil" id="viajante">
+                        <label for="viajante">Visitante</label>
+                        <input type="checkbox" name="perfil" id="residente">
+                        <label for="residente">Morador</label>
+                        <input type="checkbox" name="perfil" id="estudante">
+                        <label for="estudante">Estudante</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Detalhes</legend>
+                    <textarea placeholder="Detalhe aqui os motivos do seu contato." name="observacoes" id="observacoes" cols="22"
+                        rows="5"></textarea>
+                </fieldset>
+                <button type="reset">Cancelar</button>
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="https://www.facebook.com/prefeituradepirapora" target="blank"><img src="./img/facebook.png"
+                alt="Ícone do Facebook"></a>
+        <a href="https://www.instagram.com/prefeituradepirapora/" target="blank"><img src="./img/instagram.png"
+                alt="Ícone do Instagram"></a>
+    </footer>
+</body>
+
+</html>
