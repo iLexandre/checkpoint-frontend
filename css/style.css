@@ -128,10 +128,9 @@ ul {
     }
 
     .intro {
-        margin: 140px 50px 20px 50px;
-        padding: 20px 0px;
         font-size: 150%;
     }
+
     .curiosidades {
         margin-left: 10px;
         font-size: 130%;
@@ -154,10 +153,9 @@ ul {
     }
 
     .intro {
-        margin: 140px 50px 20px 50px;
-        padding: 20px 0px;
         font-size: 150%;
     }
+
     .curiosidades {
         margin-left: 10px;
         font-size: 130%;
@@ -166,7 +164,7 @@ ul {
 
 @media(min-width: 493px) and (max-width: 780px) {
     iframe {
-        height: 350px;
+        height: 300px;
         width: 100%;
     }
 
@@ -180,8 +178,6 @@ ul {
     }
 
     .intro {
-        margin: 140px 50px 20px 50px;
-        padding: 20px 0px;
         font-size: 150%;
     }
     .curiosidades {
@@ -192,7 +188,7 @@ ul {
 
 @media(min-width: 781px) and (max-width: 1080px) {
     iframe {
-        height: 550px;
+        height: 500px;
         width: 100%;
     }
 
@@ -207,7 +203,7 @@ ul {
 
 @media(min-width: 1081px) {
     iframe {
-        height: 920px;
+        height: 720px;
         width: 100%;
     }
 }
